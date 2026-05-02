@@ -11,7 +11,7 @@ const profileImg = `${base}images/profile.jpg`;
     {
       id: 1,
       title: "KeenKeeper",
-      image: "/images/project1.png",
+      image: `${base}images/project1.png`,
       tech: "React, Tailwind CSS, JavaScript, JSON Data",
       description:
         "KeenKeeper is a responsive digital tools website designed with product cards, clean sections, and a modern user interface.",
@@ -25,7 +25,7 @@ const profileImg = `${base}images/profile.jpg`;
     {
       id: 2,
       title: "DigiTools",
-      image: "/images/project2.png",
+      image: `${base}images/project2.png`,
       tech: "HTML, CSS, JavaScript",
       description:
         "DigiTools is a clean landing page for presenting digital tools, services, and features in a professional layout.",
@@ -39,7 +39,7 @@ const profileImg = `${base}images/profile.jpg`;
     {
       id: 3,
       title: "GitHub Issue Tracker",
-      image: "/images/project3.png",
+      image: `${base}images/project3.png`,
       tech: "React, JavaScript, GitHub API, CSS",
       description:
         "GitHub Issue Tracker is a web application that helps users view and track GitHub repository issues in an organized way.",
@@ -110,7 +110,7 @@ const profileImg = `${base}images/profile.jpg`;
 
           <div className="hero-buttons">
             <a href="#contact" className="btn">Say Hello</a>
-            <a href="/resume.pdf" download className="btn outline">
+            <a href={`${base}resume.pdf`} download className="btn outline">
               Download Resume
             </a>
           </div>
